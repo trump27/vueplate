@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>\{{msg}}</h1>
     <p>This is Hello.vue.</p>
-    <p>Current route path: {{$route.path}}</p>
+    <p>Current route path: \{{$route.path}}</p>
   </div>
 </template>
 
