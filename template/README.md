@@ -17,4 +17,7 @@ $ vue init trump27/vueplate my-project
 $ cd my-project
 $ npm install
 $ npm run dev
+
+# test
+$ npm run test
 ```
