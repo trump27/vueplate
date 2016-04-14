@@ -2,12 +2,12 @@ var webpackConf = require('./webpack.config.js')
 delete webpackConf.entry
 webpackConf.devtool = 'inline-source-map'
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
     basePath: '',
     webpack: webpackConf,
-    browsers: ['PhantomJS'],
-    frameworks: ['mocha', 'chai'],
+    browsers: ['Chrome'],
+    frameworks: ['jasmine'],
     files: ['test/index.js'],
     exclude: [],
     preprocessors: {'test/index.js': ['webpack', 'sourcemap']},
